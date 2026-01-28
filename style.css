@@ -207,12 +207,16 @@ a:visited:hover {
 	max-width:1320px;
 	margin-top:20px;
 }
-.big-preview-container-vertical{
-	grid-column:1 / span 2;
-	justify-self: center;
-	width:auto%;
-	margin-top:20px;
+.big-preview-container-vertical video {
+	width: 100%;
+	max-width: 540px;
+	height: auto;
+	max-height: 960px;
 	object-fit: contain;
+	border-radius: 10px;
+	background: #000;
+	display: block;
+	margin: 0 auto;
 }
 .big-preview-container a {
     position: relative;
